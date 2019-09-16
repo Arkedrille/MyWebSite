@@ -1,10 +1,10 @@
 /********************************* BASIC *********************************/
 
-html { background-color:  #2f3238;}
-
+/* html { background-color:  #2f3238;} */
+html { background-color:  #2D2625;}
 body {
-  font-family: 'Bitter', serif;
-  color:#f9f9f9;
+  font-family: 'Open Sans', sans-serif;
+  color:#818181;
 }
 
 /********************************* MAIN CONTENT *********************************/
@@ -21,7 +21,7 @@ body {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black*/
+  background-color: #4B2428; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
