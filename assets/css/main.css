@@ -3,12 +3,13 @@
 html { background-color:  #E3CFCD;}
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  text-decoration: none;
   color:#2A2A2A;
 }
 
 /********************************* MAIN CONTENT *********************************/
-
 
 
 /********************************* SIDENAV MENU *********************************/
