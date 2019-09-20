@@ -6,6 +6,11 @@ body, html {
   color: #777;
 }
 
+a, a:hover, a:active{
+  text-decoration: none;
+  color : #514378;
+}
+
 .bgimg-1 {
   position: relative;
   opacity: 0.65;
