@@ -6,7 +6,7 @@ body, html {
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -48,70 +48,4 @@ h3 {
   .bgimg-1, .bgimg-2, .bgimg-3 {
       background-attachment: scroll;
   }
-}
-
-
-/******************** Overlay ********************/
-#overlay {
-  position: fixed;
-  display: none;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.5);
-  z-index: 2;
-  cursor: pointer;
-}
-
-#text{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 14px;
-  color: white;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-}
-
-
-/* Skill bars*/
-* {box-sizing: border-box}
-
-.container {
-  width: 100%;
-  background-color: #ddd;
-}
-
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-  width: 100%;
-}
-
-.windows {width: 90%; background-color: #6A959B;}
-.linux {width: 80%; background-color: #D79B6B;}
-.network {width: 65%; background-color: #538061;}
-.retail {width: 60%; background-color: #D96452;}
-.csharp {width: 90%; background-color: #6A959B;}
-.script {width: 80%; background-color: #D79B6B;}
-.web {width: 65%; background-color: #538061;}
-
-
-/******************** Button skills ********************/
-.button {
-  background-color: #538061;
-  border: none;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 2px 2px;
-  border-radius: 8px; /* radius */
 }
