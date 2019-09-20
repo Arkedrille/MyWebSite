@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="assets/css/main2.css">
+<link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
@@ -17,10 +17,10 @@
   <h3 style="text-align:center;">INTRO</h3>
     <p>I'm 23 years old, developer, music fan (to compose and listen)
         and curious about everything related to technology, and not necessarily the most recent.
-        I am generally interested in IT-related domains (neuroscience, hack, AI, etc.). <br>
-        I'm a young French developer who wants to go abroad, discover IT-related professions and meet new people. <br>
+        I am generally interested in IT-related domains (neuroscience, hack, AI, etc.).
+        I'm a young French developer who wants to go abroad, discover IT-related professions and meet new people.
         I'm currently in a Store System job (Application Support - IT Developer) at Marionnaud France but I'm curious 
-        about others professions such as cybersecurity, business analyst, etc. <br>
+        about others professions such as cybersecurity, business analyst, etc.
         Here you can find my <a target="blank" href="https://arkedrille.github.io">projects</a> (from school to personal projects) and 
         <a href="https://blog.karlzawisla.fr">my blog</a>
         Here is my <a href="mescouilles.pdf">resume</a>
@@ -29,15 +29,67 @@
 
 <div class="bgimg-2">
   <div class="caption">
-  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">INFO</span>
   </div>
 </div>
 
 <div style="position:relative;">
   <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
-    <h3 style="text-align:center;">CONTACT</h3>
-    <p>Want to contact me ? Please visit my <a target="blank" href="https://www.linkedin.com/in/karl-zawisla-945178b3/">LinkedIn</a> or <a href="mailto:contact@karlzawisla.fr">mail me</a></p>
+    
+    <p>Take a quick look at my <button id="skills" onclick="on()" class="button">skills</button></p>
+    <p>Want more ? Please visit my <a target="blank" href="https://www.linkedin.com/in/karl-zawisla-945178b3/">Linkedin</a>.</p>
   </div>
 </div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border"><a href="mailto:kzawisla@pm.me">MAIL ME !</a></span>
+  </div>
+</div>
+
+<script>
+    //overlay on
+        function on() {
+          document.getElementById("overlay").style.display = "block";
+        }
+        
+    //overlay off
+        function off() {
+          document.getElementById("overlay").style.display = "none";
+        }
+        </script>
+    <div id="overlay" onclick="off()">
+        <div id="text">
+            <!-- SKILLS -->
+            <p>WINDOWS</p>
+            <div class="container">
+                <div class="skills windows">100%</div>
+            </div>
+            <p>GNU/LINUX</p>
+            <div class="container">
+                <div class="skills linux">70%</div>
+            </div>
+            <p>RETAIL</p>
+            <div class="container">
+                <div class="skills retail">60%</div>
+            </div>
+            <p>NETWORK</p>
+            <div class="container">
+                <div class="skills network">70%</div>
+            </div>
+            <p>C#</p>
+            <div class="container">
+                <div class="skills csharp">80%</div>
+            </div>
+            <p>SCRIPTS</p>
+            <div class="container">
+                <div class="skills script">90%</div>
+            </div>
+            <p>WEB</p>
+            <div class="container">
+                <div class="skills web">60%</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
