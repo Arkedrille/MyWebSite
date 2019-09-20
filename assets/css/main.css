@@ -15,18 +15,8 @@ body, html {
   background-size: cover;
 }
 .bgimg-1 {
-  background-image: url("https://karlzawisla.fr/assets/images/sea_sepia_effect.jpg");
+  background-image: url("https://karlzawisla.fr/assets/images/bg.jpg");
   min-height: 100%;
-}
-
-.bgimg-2 {
-  background-image: url("https://karlzawisla.fr/assets/images/sea-sepia_effect_beach_girl_sfw.jpg");
-  min-height: 400px;
-}
-
-.bgimg-3 {
-  background-image: url("https://karlzawisla.fr/assets/images/earth_from_space_russian.jpg");
-  min-height: 400px;
 }
 
 .caption {
